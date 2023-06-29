@@ -13,7 +13,7 @@ This repository contains code for **CVPR2023** paper:
 
 ## Installation:
 
-The code is tested under CUDA 11.2, Pytorch 1.9.0 and Detectron2 0.6.
+The code is tested under CUDA 11.2, Pytorch 1.9.0 and Detectron2 0.6
 
 1. Follow the installation process of  [Mask2Former](https://github.com/facebookresearch/Mask2Former)
 3. Install other required packages: `pip -r requirements.txt`
@@ -44,7 +44,7 @@ python train_net.py  --config-file configs/d2zero_48_17.yaml --num-gpus 8
 This project is based on [ZSI](https://github.com/zhengye1995/Zero-shot-Instance-Segmentation), [Mask2Former](https://github.com/facebookresearch/Mask2Former). Many thanks to the authors for their great works!
 
 ## BibTeX
-Please consider to cite D2Zero if it helps your research.
+Please consider citing D2Zero if it helps your research.
 
 ```latex
 @inproceedings{D2Zero,
